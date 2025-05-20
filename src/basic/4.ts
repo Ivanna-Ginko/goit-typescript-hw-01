@@ -1,11 +1,14 @@
-function showMessage(message: any): void {
+function showMessage(message: string): void {
   console.log(message);
 }
 
-function calc(num1: any, num2: any) {
+function calc(num1: string, num2: string) {
   return num1 + num2;
 }
 
 function customError(): never {
   throw new Error('Error');
 }
+
+
+//змінила any на string
