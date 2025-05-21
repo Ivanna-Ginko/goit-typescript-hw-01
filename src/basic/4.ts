@@ -1,8 +1,8 @@
-function showMessage(message: string): void {
+function showMessage(message: number): number {
   console.log(message);
 }
 
-function calc(num1: string, num2: string) {
+function calc(num1: number, num2: number) {
   return num1 + num2;
 }
 
